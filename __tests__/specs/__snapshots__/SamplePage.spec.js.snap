@@ -1,0 +1,40 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders base component correctly 1`] = `
+<div
+  className="sc-bdVaJa iaUkTG"
+>
+  <div
+    className="sc-bwzfXH fJKfzp"
+  >
+    <header
+      className="sc-htpNat ggFOZY"
+    >
+      <h1>
+        Sample
+      </h1>
+    </header>
+    <main
+      className="sc-bxivhb kinwFJ"
+    >
+      <h2
+        className="sc-ifAKCX cdZoGB"
+      >
+        Test form
+      </h2>
+      <div
+        className="sc-EHOje eVWzyT"
+      >
+        <label>
+          Type something:
+        </label>
+        <input
+          onChange={[Function]}
+          type="text"
+          value=""
+        />
+      </div>
+    </main>
+  </div>
+</div>
+`;

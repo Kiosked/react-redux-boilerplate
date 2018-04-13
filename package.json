@@ -24,11 +24,11 @@
   "homepage": "https://github.com/Kiosked/react-redux-boilerplate#readme",
   "private": true,
   "devDependencies": {
+    "@babel/preset-env": "^7.0.0-beta.44",
     "babel-core": "^6.26.0",
     "babel-loader": "^7.1.4",
     "babel-plugin-jsx-control-statements": "^3.2.8",
     "babel-plugin-transform-function-bind": "^6.22.0",
-    "babel-preset-env": "^1.6.1",
     "babel-preset-react": "^6.24.1",
     "css-loader": "^0.28.11",
     "file-loader": "^1.1.11",

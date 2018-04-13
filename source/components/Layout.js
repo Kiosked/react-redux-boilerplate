@@ -20,14 +20,14 @@ const Main = styled.main`
     width: 100%;
 `;
 
-export default () => (
+export default props => (
     <RootContainer>
         <Container>
             <Header>
                 <h1>Sample</h1>
             </Header>
             <Main>
-                {this.props.children}
+                {props.children}
             </Main>
         </Container>
     </RootContainer>

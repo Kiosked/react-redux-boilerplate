@@ -26,11 +26,13 @@
   "homepage": "https://github.com/Kiosked/react-redux-boilerplate#readme",
   "private": true,
   "devDependencies": {
-    "@babel/preset-env": "^7.0.0-beta.44",
     "babel-core": "^6.26.0",
     "babel-loader": "^7.1.4",
     "babel-plugin-jsx-control-statements": "^3.2.8",
+    "babel-plugin-transform-class-properties": "^6.24.1",
     "babel-plugin-transform-function-bind": "^6.22.0",
+    "babel-plugin-transform-object-rest-spread": "^6.26.0",
+    "babel-preset-es2017": "^6.24.1",
     "babel-preset-react": "^6.24.1",
     "css-loader": "^0.28.11",
     "file-loader": "^1.1.11",
@@ -52,6 +54,8 @@
     "style-loader": "^0.20.3",
     "styled-components": "^3.2.5",
     "uglifyjs-webpack-plugin": "^1.2.4",
-    "webpack": "^4.5.0"
-  }
+    "webpack": "^4.5.0",
+    "webpack-cli": "^2.0.14"
+  },
+  "dependencies": {}
 }

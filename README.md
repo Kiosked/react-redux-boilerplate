@@ -1,4 +1,4 @@
-# react-redux-boilerplate
+# React+Redux boilerplate
 > Full React/Redux/React-Router/Actions+Selectors boilerplate application, with Webpack
 
 [![Build Status](https://travis-ci.org/Kiosked/react-redux-boilerplate.svg?branch=master)](https://travis-ci.org/Kiosked/react-redux-boilerplate)

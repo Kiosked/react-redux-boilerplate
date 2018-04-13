@@ -7,8 +7,11 @@ import store from "./redux/index.js";
 import history from "./redux/history.js";
 import SamplePage from "./containers/SamplePage.js";
 
+// Import the base SASS which can be used to style elements not created
+// by the react application:
 import "./styles/base.sass";
 
+// Render the application into the DOM
 ReactDOM.render(
     <Provider store={store}>
         <ConnectedRouter history={history}>

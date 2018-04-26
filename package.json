@@ -5,6 +5,7 @@
   "main": "source/index.js",
   "scripts": {
     "build": "NODE_ENV=production webpack --mode=production --progress",
+    "serve": "serve -p 3000 ./dist",
     "dev": "webpack --mode=development --progress --watch",
     "test": "jest",
     "test:update": "jest --updateSnapshot"

@@ -52,7 +52,7 @@ module.exports = {
     plugins: [
         new HtmlWebpackPlugin({
             title: "Sample Application - Kiosked",
-            baseURL: `http://localhost/`,
+            baseURL: 'http://localhost:3000/',
             template: path.join(RESOURCES, "template.pug"),
             favicon: path.join(RESOURCES, "sample.ico"),
             publicPath: "",
